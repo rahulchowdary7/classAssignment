@@ -1,19 +1,32 @@
 package com.example;
 
+/**
+ * Main
+ */
 public class Main {
     public static void main(String[] args) {
-        // Create a new car object
-        Car myCar = new Car("Toyota", "Camry", 2020, "Red", 24000.00);
-
-        // Display car details
-        myCar.displayCarDetails();
-
-        // Modify car details
-        myCar.setColor("Blue");
-        myCar.setPrice(23000.00);
-
-        // Display updated car details
-        System.out.println("\nUpdated Car Details:");
-        myCar.displayCarDetails();
+        // Create Student objects
+        Student student1 = new Student("Alice", 20);
+        Student student2 = new Student("Bob", 22);
+    
+        // Use getters
+        System.out.println("Student 1 Name: " + student1.getName());
+        System.out.println("Student 1 Age: " + student1.getAge());
+    
+        // Use setters
+        student1.setName("Alicia");
+        student1.setAge(21);
+    
+        // Display student details
+        student1.displayDetails();
+        student2.displayDetails();
+    
+        // Use static function
+        System.out.println("Total Students: " + Student.getStudentCount());
     }
+    
+
+    
 }
+
+
