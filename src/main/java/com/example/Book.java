@@ -18,5 +18,10 @@ Additional Methods:
 
 Implement a method displayBookDetails that prints the details of the book (title, author, and number of copies).
 Implement a static method totalBooks that returns the total number of books created (use a static variable to keep track of the count).
- * 
+
+Additional Instructions
+understand the importance of encapsulation and how getters and setters help in maintaining it.
+think about edge cases, such as setting negative values for the number of copies and how to handle them.
+After implementing the class, test it with the example usage provided to ensure everything works correctly.
+* 
  */
