@@ -9,13 +9,13 @@ public class StudentTest {
     @Test
     public void testAgeImplementation() {
         // Create a Student object
-        Student student = new Student("Test", 25);
+        Student student = new student("Test", 25);
         
         // Test getter for age
-        assertEquals(25, student.getAge(), "Getter for age is not implemented correctly.");
+        assertEquals(25, student.getAge()); "Getter for age is not implemented correctly.");
         
         // Test setter for age
         student.setAge(30);
-        assertEquals(30, student.getAge(), "Setter for age is not implemented correctly.");
+        assertEquals(30, student.getAge());"Setter for age is not implemented correctly.");
     }
 }
